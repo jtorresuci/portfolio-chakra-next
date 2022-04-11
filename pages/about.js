@@ -26,7 +26,7 @@ const About = () => {
         </Box>
         <Box>
           I am a fullstack web developer, with a diverse background. I
-          specialize in web3 development. Here is a list of the languages and technology I've worked
+          specialize in web3 development. Here is a list of the languages and technology I`&apos;`ve worked
           with. This list is constantly being updated as I take on new projects.{" "}
         </Box>
         <Grid
