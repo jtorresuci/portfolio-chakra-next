@@ -9,7 +9,7 @@ const discordHandle ="https://discord.gg/pKm5MJeK"
 const openseaHandle ="https://instagram.com/saintn.wtf"
 
 const hoverColor ="white"
-const hoverBackgroundcolor ="pink"
+const hoverBackgroundcolor ="red"
 
 const Socials = (props, ButtonGroupProps) => {
     return (

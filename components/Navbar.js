@@ -5,7 +5,7 @@ import { NFTContext } from "../context/NFTContext";
 import Link from "next/link";
 import Socials from "./Socials";
 const logoImg =
-  "https://www.tailorbrands.com/wp-content/uploads/2020/07/mcdonalds-logo.jpg";
+  "ether-formula.png";
 const NavBar = () => {
   const { openMenu } = useContext(NFTContext);
 
@@ -34,7 +34,7 @@ const NavBar = () => {
 
       <Link href="/">
         <Image placeholder="blur"
-          alt="image" pl="6rem" src={logoImg} w={150} h={75} cursor={"pointer"} />
+          alt="image" pl="6rem" src={logoImg} w={300} cursor={"pointer"} />
       </Link>
 
       <Socials />

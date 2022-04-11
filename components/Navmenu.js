@@ -42,7 +42,7 @@ const NavMenu = () => {
             </VStack>
           </DrawerBody>
           <DrawerFooter textAlign={"center"}>
-            © 2021 Goth Chick Clique. All Rights Reserved
+            © Jose Torres Contact for inquiries: jtorresuci@gmail.com
           </DrawerFooter>
         </DrawerContent>
       </DrawerOverlay>
