@@ -11,10 +11,9 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <Box>
-      <Navbarv2/>
+
       <NavMenu/>
       <Hero/>
-    <Footer/>
     </Box>
   )
 }

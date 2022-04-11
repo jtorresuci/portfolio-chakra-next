@@ -5,6 +5,9 @@ import { MdMenu, MdShoppingBasket, MdShoppingCart } from "react-icons/md";
 import { NFTContext } from "../context/NFTContext";
 import Name from "./Name";
 
+const hoverBackgroundcolor ="red"
+
+
 
 const Navbarv2 = () => {
     const [mobile, setMobile] = useState(undefined)
@@ -19,7 +22,7 @@ const Navbarv2 = () => {
           window.removeEventListener('resize', updateMobile)
         }
       }, [])
-      
+
       const { openMenu } = useContext(NFTContext);
 
     
@@ -65,11 +68,12 @@ const Navbarv2 = () => {
       justifyContent="space-between"
       alignItems={"center"}
       w="30%"
-    >
-        <Link>About</Link>
-        <Link>Projects</Link>
-        <Link>Contacts</Link>
-        <Link>Experience</Link>
+
+    > 
+        <Link _hover={{ color: hoverBackgroundcolor  }} href='/about'>About</Link>
+        <Link _hover={{ color: hoverBackgroundcolor  }} href='/projects'>Projects</Link>
+        <Link _hover={{ color: hoverBackgroundcolor  }} href='/contact'>Contact</Link>
+        <Link _hover={{ color: hoverBackgroundcolor  }} href='/experience'>Experience</Link>
     </Flex>
     <Socials/>
   </Flex>) ) :null

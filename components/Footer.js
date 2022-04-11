@@ -16,7 +16,7 @@ const Footer = () => {
       <Grid
         templateColumns={["repeat(1,1fr)", "repeat(2, 1fr)"]}
         color="white"
-        fontWeight={"bold"}
+
       >
         <Box>
           <Image
@@ -35,15 +35,18 @@ pb={"1rem"}
         <Text fontWeight={'bold'} color="gray.100"> Navigation</Text>
 
   <BreadcrumbItem>
-    <BreadcrumbLink color={linkColors} _hover={{ color: hoverBackgroundcolor  }} href='#'>Home</BreadcrumbLink>
+    <BreadcrumbLink color={linkColors} _hover={{ color: hoverBackgroundcolor  }} href='#'>About</BreadcrumbLink>
   </BreadcrumbItem>
 
   <BreadcrumbItem>
-    <BreadcrumbLink color={linkColors} _hover={{ color: hoverBackgroundcolor  }} href='#'>About</BreadcrumbLink>
+    <BreadcrumbLink color={linkColors} _hover={{ color: hoverBackgroundcolor  }} href='#'>Projects</BreadcrumbLink>
   </BreadcrumbItem>
 
   <BreadcrumbItem isCurrentPage>
     <BreadcrumbLink color={linkColors} _hover={{ color: hoverBackgroundcolor  }} href='#'>Contact</BreadcrumbLink>
+  </BreadcrumbItem>
+  <BreadcrumbItem isCurrentPage>
+    <BreadcrumbLink color={linkColors} _hover={{ color: hoverBackgroundcolor  }} href='#'>Experience</BreadcrumbLink>
   </BreadcrumbItem>
   </VStack>
 </Breadcrumb>
