@@ -73,7 +73,7 @@ const Navbarv2 = () => {
         <Link _hover={{ color: hoverBackgroundcolor  }} href='/about'>About</Link>
         <Link _hover={{ color: hoverBackgroundcolor  }} href='/projects'>Projects</Link>
         <Link _hover={{ color: hoverBackgroundcolor  }} href='/contact'>Contact</Link>
-        <Link _hover={{ color: hoverBackgroundcolor  }} href='/experience'>Experience</Link>
+        {/* <Link _hover={{ color: hoverBackgroundcolor  }} href='/experience'>Experience</Link> */}
     </Flex>
     <Socials/>
   </Flex>) ) :null
