@@ -20,8 +20,9 @@ const Socials = (props, ButtonGroupProps) => {
         <IconButton _hover={{ bg: hoverBackgroundcolor, color: hoverColor  }} as="a" href={twitterHandle} aria-label="Twitter" icon={<FaTwitter size="20px" />} />
         {/* <IconButton _hover={{ bg: hoverBackgroundcolor, color: hoverColor  }} as="a" href={openseaHandle} aria-label="Link" icon={<FaLink size="20px" />} /> */}
 
-        <IconButton _hover={{ bg: hoverBackgroundcolor, color: hoverColor  }} as="a" href={discordHandle} aria-label="Discord" icon={<FaDiscord size="20px" />} />
+        <IconButton _hover={{ bg: hoverBackgroundcolor, color: hoverColor  }} as="a" href={discordHandle} aria-label="Discord" icon={<FaInstagram size="20px" />} />
             {/* <IconButton as="a" href={igHandle} aria-label="Instagram" icon={<FaInstagram size="20px" />} /> */}
+            <IconButton _hover={{ bg: hoverBackgroundcolor, color: hoverColor  }} as="a" href={discordHandle} aria-label="Discord" icon={<FaLinkedin size="20px" />} />
 
       </ButtonGroup>
     )

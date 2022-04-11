@@ -1,6 +1,7 @@
 import { Box } from '@chakra-ui/react'
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import Navbar from '../components/Navbar'
 import Navbarv2 from '../components/Navbarv2'
@@ -13,7 +14,7 @@ export default function Home() {
       <Navbarv2/>
       <NavMenu/>
       <Hero/>
-    <Box>Hello World!!!</Box>
+    <Footer/>
     </Box>
   )
 }
