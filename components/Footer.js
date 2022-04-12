@@ -15,7 +15,6 @@ const Footer = () => {
     <Box backgroundColor="brand.900" pb="7rem" pt="3rem" pl="3rem">
       <Grid
         templateColumns={["repeat(1,1fr)", "repeat(2, 1fr)"]}
-        color="white"
 
       >
         <Box>
@@ -27,7 +26,7 @@ const Footer = () => {
           alt="image"
 pb={"1rem"}
           />
-          <Text color={linkColors}>© 2021 Jose Torres. All Rights Reserved</Text>
+          <Text>© 2021 Jose Torres. All Rights Reserved</Text>
 <Socials/>
         </Box>
         <Breadcrumb>

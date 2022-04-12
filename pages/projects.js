@@ -5,8 +5,8 @@ import ProjectComponent from "../components/ProjectComponent";
 const Projects = () => {
   return (
     <Box p="2rem">
-      <Heading pb="1rem" size="3xl">
-        Projects
+      <Heading pb="3rem" size="3xl">
+        Ongoing Projects
       </Heading>
       <Grid
         templateColumns={[
@@ -14,10 +14,20 @@ const Projects = () => {
           "repeat(1, 1fr)",
           "repeat(1, 1fr)",
           "repeat(1, 1fr)",
-          "repeat(2, 1fr)",
+          "repeat(3, 1fr)",
         ]}
         gap="5"
       >
+         <ProjectComponent
+          projectImage={
+            "ember.png"
+          }
+          projectTitle={"$EMBER Token"}
+          projectLink={"https://polygonscan.com/token/0x7C30E650d71652b4e021BeE770caaf676FBcB8c0"}
+          projectDescription={
+            "Users can burn their NFTs to receive $EMBER. $EMBER will be redeemable in upcoming projects."
+          }
+        />
         <ProjectComponent
           projectImage={"https://www.vidoozles.com/1.png"}
           projectTitle={"Vidoozles"}
@@ -36,6 +46,7 @@ const Projects = () => {
             "Users can exchange $MATIC for a Party Pumpkin ERC-721 token. Art, and code written by me. Released October 1, 2021."
           }
         />
+        
        
       </Grid>
     </Box>
