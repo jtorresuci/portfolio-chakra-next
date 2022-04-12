@@ -12,7 +12,6 @@ export default function Home() {
   return (
     <Box>
 
-      <NavMenu/>
       <Hero/>
     </Box>
   )
