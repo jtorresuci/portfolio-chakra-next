@@ -1,6 +1,7 @@
 import React from 'react'
 import { ButtonGroup, ButtonGroupProps, IconButton } from '@chakra-ui/react'
 import { FaDiscord, FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaLink} from 'react-icons/fa'
+import { ColorModeSwitcher } from "./ColorModeSwitcher.tsx";
 
 
 const twitterHandle ="https://twitter.com/asapnomad"
@@ -14,7 +15,7 @@ const hoverBackgroundcolor ="red"
 const Socials = (props, ButtonGroupProps) => {
     return (
         <ButtonGroup     
-        variant="ghost" color="black" {...props}>
+        variant="ghost" {...props}>
         {/* <IconButton as="a" href="#" aria-label="LinkedIn" icon={<FaLinkedin size="20px" />} />x */}
         {/* <IconButton as="a" href="#" aria-label="GitHub" icon={<FaGithub size="20px" />} /> */}
         <IconButton _hover={{ bg: hoverBackgroundcolor, color: hoverColor  }} as="a" href={twitterHandle} aria-label="Twitter" icon={<FaTwitter size="20px" />} />
@@ -23,6 +24,7 @@ const Socials = (props, ButtonGroupProps) => {
         {/* <IconButton _hover={{ bg: hoverBackgroundcolor, color: hoverColor  }} as="a" href={igHandle} aria-label="Instagram" icon={<FaInstagram size="20px" />} /> */}
             {/* <IconButton as="a" href={igHandle} aria-label="Instagram" icon={<FaInstagram size="20px" />} /> */}
             <IconButton _hover={{ bg: hoverBackgroundcolor, color: hoverColor  }} as="a" href={linkedInHandle} aria-label="LinkedIn" icon={<FaLinkedin size="20px" />} />
+            <ColorModeSwitcher/>
 
       </ButtonGroup>
     )
