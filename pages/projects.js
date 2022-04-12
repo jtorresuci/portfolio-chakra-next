@@ -21,6 +21,7 @@ const Projects = () => {
       <ProjectComponent
         projectImage={"https://www.vidoozles.com/1.png"}
         projectTitle={"Vidoozles"}
+        projectLink={"https://www.vidoozles.com"}
         projectDescription={
           "Users can exchange $MATIC for a Vidoozle ERC-721 token. ERC-721 tokens are burnable and redeemable for $EMBER. Art, and code written by me. This is a developing project. Released in Febrary, 2022."
         }
@@ -30,10 +31,21 @@ const Projects = () => {
           "https://lh3.googleusercontent.com/rd0cWZr19zFY2u3fdMrCwuwBP0eOeIqLeOfdIKWOtZS6ZPo-iTfG67zr94yMK8bfB-2yOuRrhnn5R7fpHf85dpAniejsVpw_j2LKyWo=s0"
         }
         projectTitle={"Party Pumpkins"}
+        projectLink={"http://partypumpkins.io"}
         projectDescription={
           "Users can exchange $MATIC for a Party Pumpkin ERC-721 token. Art, and code written by me. Released October 1, 2021."
         }
       />
+      {/* <ProjectComponent
+        projectImage={
+          "https://lh3.googleusercontent.com/rd0cWZr19zFY2u3fdMrCwuwBP0eOeIqLeOfdIKWOtZS6ZPo-iTfG67zr94yMK8bfB-2yOuRrhnn5R7fpHf85dpAniejsVpw_j2LKyWo=s0"
+        }
+        projectTitle={"Party Pumpkins"}
+        projectLink={"http://partypumpkins.io"}
+        projectDescription={
+          "Users can exchange $MATIC for a Party Pumpkin ERC-721 token. Art, and code written by me. Released October 1, 2021."
+        }
+      /> */}
    
     </Grid>
       </Box>

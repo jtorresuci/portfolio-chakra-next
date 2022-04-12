@@ -12,7 +12,7 @@ const Contact = () => {
           <Text p="2rem">
               Get in touch with me to get the ball rolling.
           </Text>
-        <Flex>
+        <Flex direction={["column","column","column","column", "row-reverse"] }>
             <ImageAndText typeOfContact={"Email:"} contactInfo={"jtorresuci@gmail.com"} />
             <ImageAndText typeOfContact={"Phone:"} contactInfo={"949-228-9443"}/>
             {/* <ImageAndText typeOfContact={"Project Planner:"} contactInfo={"Website Planner Link"} /> */}

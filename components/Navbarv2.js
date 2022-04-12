@@ -1,4 +1,4 @@
-import { Box, Flex, Icon, Link, VStack } from "@chakra-ui/react";
+import { Box, Center, Flex, Icon, Link, VStack } from "@chakra-ui/react";
 import React, { useState, useEffect, useContext} from 'react'
 import Socials from "./Socials";
 import { MdMenu, MdShoppingBasket, MdShoppingCart } from "react-icons/md";
@@ -37,13 +37,14 @@ const Navbarv2 = () => {
       alignItems={"center"}
     >
       <Name/>
-      <Flex
+      {/* <Flex
         flexDir={"row"}
         justifyContent="space-between"
         alignItems={"center"}
         w="30%"
-      >
-          <Icon
+      > */}
+      <Center>
+      <Icon
         fill="brand.100"
         cursor="pointer"
         as={MdMenu}
@@ -51,7 +52,9 @@ const Navbarv2 = () => {
         h={30}
         onClick={() => openMenu()}
       />
-      </Flex>
+      </Center>
+          
+      {/* </Flex> */}
       <Socials/>
     </Flex>
   ) : (<Flex
