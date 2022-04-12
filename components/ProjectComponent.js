@@ -8,12 +8,20 @@ const ProjectComponent = ({
   projectLink,
   buttonText
 }) => {
+
+  const redirect = () => {
+    const url = projectLink;
+    window.open(url, "_blank");
+  };
+
+let newLink = "location.href='"+ {projectLink} + "'"
   return (
     <VStack>
       <Image borderRadius={"30px"} w="200px" src={projectImage} />
       <Heading>{projectTitle}</Heading>
       <Text p="1.5rem">{projectDescription}</Text>
-      <Button borderRadius={"full"} href={projectLink}>{buttonText}</Button>
+      <Button borderRadius={"full"}               onClick={redirect}
+>{buttonText}</Button>
     </VStack>
   );
 };
