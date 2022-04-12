@@ -3,10 +3,10 @@ import { ButtonGroup, ButtonGroupProps, IconButton } from '@chakra-ui/react'
 import { FaDiscord, FaGithub, FaInstagram, FaLinkedin, FaTwitter, FaLink} from 'react-icons/fa'
 
 
-const twitterHandle ="https://twitter.com/gothgirlsnft"
-const igHandle ="https://instagram.com/saintn.wtf"
-const discordHandle ="https://discord.gg/pKm5MJeK"
-const openseaHandle ="https://instagram.com/saintn.wtf"
+const twitterHandle ="https://twitter.com/asapnomad"
+const igHandle ="https://instagram.com/asapnomad"
+const linkedInHandle ="https://www.linkedin.com/in/jose-torres-240851183/"
+// const openseaHandle ="https://instagram.com/sa"
 
 const hoverColor ="white"
 const hoverBackgroundcolor ="red"
@@ -20,9 +20,9 @@ const Socials = (props, ButtonGroupProps) => {
         <IconButton _hover={{ bg: hoverBackgroundcolor, color: hoverColor  }} as="a" href={twitterHandle} aria-label="Twitter" icon={<FaTwitter size="20px" />} />
         {/* <IconButton _hover={{ bg: hoverBackgroundcolor, color: hoverColor  }} as="a" href={openseaHandle} aria-label="Link" icon={<FaLink size="20px" />} /> */}
 
-        <IconButton _hover={{ bg: hoverBackgroundcolor, color: hoverColor  }} as="a" href={discordHandle} aria-label="Discord" icon={<FaInstagram size="20px" />} />
+        <IconButton _hover={{ bg: hoverBackgroundcolor, color: hoverColor  }} as="a" href={igHandle} aria-label="Instagram" icon={<FaInstagram size="20px" />} />
             {/* <IconButton as="a" href={igHandle} aria-label="Instagram" icon={<FaInstagram size="20px" />} /> */}
-            <IconButton _hover={{ bg: hoverBackgroundcolor, color: hoverColor  }} as="a" href={discordHandle} aria-label="Discord" icon={<FaLinkedin size="20px" />} />
+            <IconButton _hover={{ bg: hoverBackgroundcolor, color: hoverColor  }} as="a" href={linkedInHandle} aria-label="LinkedIn" icon={<FaLinkedin size="20px" />} />
 
       </ButtonGroup>
     )

@@ -14,10 +14,10 @@ const Contact = () => {
           </Text>
         <Flex>
             <ImageAndText typeOfContact={"Email:"} contactInfo={"jtorresuci@gmail.com"} />
-            <ImageAndText typeOfContact={"Phone:"} contactInfo={"949-999-6666"}/>
-            <ImageAndText typeOfContact={"Project Planner:"} contactInfo={"Website Planner Link"} />
-            <ImageAndText typeOfContact={"Skype:"} contactInfo={"contact@skype.com"}/>
-            <ImageAndText typeOfContact={"Twitter:"} contactInfo={"@asapnomad"} />
+            <ImageAndText typeOfContact={"Phone:"} contactInfo={"949-228-9443"}/>
+            {/* <ImageAndText typeOfContact={"Project Planner:"} contactInfo={"Website Planner Link"} /> */}
+            <ImageAndText typeOfContact={"Skype:"} linkDetails={"Click to Connect"} contactInfo={"https://join.skype.com/invite/ldxGcXk7Hmbu"}/>
+            <ImageAndText typeOfContact={"Twitter:"} linkDetails={"@asapnomad"} contactInfo={"https://twitter.com/asapnomad"} />
         </Flex>
           </VStack>
         

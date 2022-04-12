@@ -4,6 +4,10 @@ import ProjectComponent from "../components/ProjectComponent";
 
 const Projects = () => {
   return (
+      <Box p="2rem">
+<Heading pb="1rem" size="3xl">
+          Projects
+      </Heading>
     <Grid
       templateColumns={[
         "repeat(1, 1fr)",
@@ -12,7 +16,7 @@ const Projects = () => {
         "repeat(1, 1fr)",
         "repeat(2, 1fr)",
       ]}
-      p="2rem"
+
     >
       <ProjectComponent
         projectImage={"https://www.vidoozles.com/1.png"}
@@ -32,6 +36,8 @@ const Projects = () => {
       />
    
     </Grid>
+      </Box>
+      
   );
 };
 

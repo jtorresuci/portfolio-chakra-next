@@ -1,4 +1,4 @@
-import { Box, Center, Circle, Icon, Image } from "@chakra-ui/react";
+import { Box, Center, Circle, Icon, Image, LinkBox, VStack } from "@chakra-ui/react";
 import React from "react";
 import {
   MdCalendarToday,
@@ -18,9 +18,12 @@ import {
   FaLink,
   FaSkype,
 } from "react-icons/fa";
+import Link from "next/link";
+const hoverBackgroundcolor ="red"
 
-const ImageAndText = ({ typeOfContact, contactInfo }) => {
+const ImageAndText = ({ typeOfContact, contactInfo, linkDetails }) => {
   let contactImage = undefined;
+  let isLink = false;
 
   switch (typeOfContact) {
     case "Phone:":
@@ -36,24 +39,32 @@ const ImageAndText = ({ typeOfContact, contactInfo }) => {
 
     case "Skype:":
       contactImage = FaSkype;
+      isLink=true;
+      
       break;
     case "Twitter:":
       contactImage = FaTwitter;
+      isLink = true
       break;
   }
 
   return (
     <Box p="2rem">
       <Center>
-        <Circle size="80px" bg="tomato" color="white">
+        <Circle size="80px" bg="red" color="white">
           {" "}
           <Icon w={10} h={10} as={contactImage} />
         </Circle>
       </Center>
       <Center>
         {" "}
+        <VStack>
         <Box pt="1rem">{typeOfContact} &nbsp;</Box>
-        <Box pt="1rem">{contactInfo}</Box>
+        {
+            isLink ? <Link _hover={{ color: hoverBackgroundcolor  }} href={contactInfo}>{linkDetails}</Link> : <Box>{contactInfo}</Box>
+        }
+        </VStack>
+        
       </Center>
     </Box>
   );

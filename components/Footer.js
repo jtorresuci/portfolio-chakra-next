@@ -32,22 +32,22 @@ pb={"1rem"}
         </Box>
         <Breadcrumb>
         <VStack p="2rem" >
-        <Text fontWeight={'bold'} color="gray.100"> Navigation</Text>
+        <Text fontWeight={'bold'}> Navigation</Text>
 
   <BreadcrumbItem>
-    <BreadcrumbLink color={linkColors} _hover={{ color: hoverBackgroundcolor  }} href='#'>About</BreadcrumbLink>
+    <BreadcrumbLink _hover={{ color: hoverBackgroundcolor  }} href='/about'>About</BreadcrumbLink>
   </BreadcrumbItem>
 
   <BreadcrumbItem>
-    <BreadcrumbLink color={linkColors} _hover={{ color: hoverBackgroundcolor  }} href='#'>Projects</BreadcrumbLink>
+    <BreadcrumbLink _hover={{ color: hoverBackgroundcolor  }} href='/projects'>Projects</BreadcrumbLink>
   </BreadcrumbItem>
 
   <BreadcrumbItem isCurrentPage>
-    <BreadcrumbLink color={linkColors} _hover={{ color: hoverBackgroundcolor  }} href='#'>Contact</BreadcrumbLink>
+    <BreadcrumbLink _hover={{ color: hoverBackgroundcolor  }} href='/contact'>Contact</BreadcrumbLink>
   </BreadcrumbItem>
-  <BreadcrumbItem isCurrentPage>
+  {/* <BreadcrumbItem isCurrentPage>
     <BreadcrumbLink color={linkColors} _hover={{ color: hoverBackgroundcolor  }} href='#'>Experience</BreadcrumbLink>
-  </BreadcrumbItem>
+  </BreadcrumbItem> */}
   </VStack>
 </Breadcrumb>
           {/* <Heading fontWeight={"bold"} textAlign={"right"}>
