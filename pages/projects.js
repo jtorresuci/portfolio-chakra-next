@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <Box p="2rem">
       <Heading pb="3rem" size="3xl">
-        Ongoing Projects
+        Projects
       </Heading>
       <Grid
         templateColumns={[
@@ -27,6 +27,7 @@ const Projects = () => {
           projectDescription={
             "Users can burn their NFTs to receive $EMBER. $EMBER will be redeemable in upcoming projects."
           }
+          buttonText={"Live Contract"}
         />
         <ProjectComponent
           projectImage={"https://www.vidoozles.com/1.png"}
@@ -35,6 +36,8 @@ const Projects = () => {
           projectDescription={
             "Users can exchange $MATIC for a Vidoozle ERC-721 token. ERC-721 tokens are burnable and redeemable for $EMBER. Art, and code written by me. This is a developing project. Released in Febrary, 2022."
           }
+          buttonText={"Live Site"}
+
         />
         <ProjectComponent
           projectImage={
@@ -45,6 +48,8 @@ const Projects = () => {
           projectDescription={
             "Users can exchange $MATIC for a Party Pumpkin ERC-721 token. Art, and code written by me. Released October 1, 2021."
           }
+          buttonText={"Live Site"}
+
         />
         
        
