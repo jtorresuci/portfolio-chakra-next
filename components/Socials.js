@@ -6,7 +6,6 @@ import { ColorModeSwitcher } from "./ColorModeSwitcher.tsx";
 
 const twitterHandle ="https://twitter.com/asapnomad"
 const linkedInHandle ="https://www.linkedin.com/in/jose-torres-240851183/"
-// const openseaHandle ="https://instagram.com/sa"
 
 const hoverColor ="white"
 const hoverBackgroundcolor ="red"
