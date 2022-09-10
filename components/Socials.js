@@ -5,7 +5,6 @@ import { ColorModeSwitcher } from "./ColorModeSwitcher.tsx";
 
 
 const twitterHandle ="https://twitter.com/asapnomad"
-const igHandle ="https://instagram.com/asapnomad"
 const linkedInHandle ="https://www.linkedin.com/in/jose-torres-240851183/"
 // const openseaHandle ="https://instagram.com/sa"
 
