@@ -37,12 +37,6 @@ const Navbarv2 = () => {
       alignItems={"center"}
     >
       <Name/>
-      {/* <Flex
-        flexDir={"row"}
-        justifyContent="space-between"
-        alignItems={"center"}
-        w="30%"
-      > */}
       <Center>
       <Icon
         fill="brand.100"

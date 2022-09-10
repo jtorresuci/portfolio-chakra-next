@@ -6,7 +6,7 @@ const hoverBackgroundcolor ="red"
 const Name = () => {
   return (
 <VStack fontWeight={'bold'}>
-      <Link _hover={{ color: hoverBackgroundcolor  }} href='/'>Jose G. Torres</Link>
+      <Link _hover={{ color: hoverBackgroundcolor  }} href='/'>Jose Torres Jr.</Link>
       <Box>Full-Stack Developer</Box>
     </VStack>
   )

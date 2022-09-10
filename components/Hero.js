@@ -27,7 +27,7 @@ const Hero = () => {
         </RoughNotationGroup>
       </VStack>
       <Center>
-        <Image borderRadius="full" src="burb.png" />
+        <Image borderRadius="full" src="visitor.png" />
       </Center>
     </Grid>
   );

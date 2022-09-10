@@ -34,7 +34,7 @@ const Projects = () => {
           projectTitle={"Vidoozles"}
           projectLink={"https://www.vidoozles.com"}
           projectDescription={
-            "Users can exchange $MATIC for a Vidoozle ERC-721 token. ERC-721 tokens are burnable and redeemable for $EMBER. Art, and code written by me. This is a developing project. Released in Febrary, 2022."
+            "Users can exchange $MATIC for a Vidoozle ERC-721 token. ERC-721 tokens are burnable and redeemable for $EMBER. This is a developing project. Released in Febrary, 2022."
           }
           buttonText={"Live Site"}
 
@@ -46,7 +46,7 @@ const Projects = () => {
           projectTitle={"Party Pumpkins"}
           projectLink={"http://partypumpkins.io"}
           projectDescription={
-            "Users can exchange $MATIC for a Party Pumpkin ERC-721 token. Art, and code written by me. Released October 1, 2021."
+            "Users can exchange $MATIC for a Party Pumpkin ERC-721 token. Released October 1, 2021."
           }
           buttonText={"Live Site"}
 

@@ -34,7 +34,7 @@ const NavMenu = () => {
           <DrawerBody>
             <VStack p="2rem" fontWeight={"bold"}>
               <Link href="/"><Text as='u' cursor="pointer">Jose G. Torres Jr.</Text></Link>
-              <Link href="/about"><Text cursor="pointer">About</Text></Link>
+              <Link href="/about"><Text cursor="pointer">Aboust</Text></Link>
 
               <Link href="/projects"><Text cursor="pointer">Projects</Text></Link>
               <Link href="/contact"><Text cursor="pointer">Contact</Text></Link>
