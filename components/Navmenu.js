@@ -20,7 +20,6 @@ import {
   VStack,
 } from "@chakra-ui/react";
 
-//   const {isMenuOpen, closeMenu  } = useContext(ShopContext);
 
 const NavMenu = () => {
   const { isMenuOpen, closeMenu } = useContext(NFTContext);
