@@ -48,7 +48,6 @@ const Navbarv2 = () => {
       />
       </Center>
           
-      {/* </Flex> */}
       <Socials/>
     </Flex>
   ) : (<Flex
