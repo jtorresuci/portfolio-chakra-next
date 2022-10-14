@@ -5,7 +5,8 @@ import { ColorModeSwitcher } from "./ColorModeSwitcher.tsx";
 
 
 const twitterHandle ="https://twitter.com/asapnomad"
-const linkedInHandle ="https://www.linkedin.com/in/jose-torres-240851183/"
+const linkedInHandle ="https://www.linkedin.com/in/jtorresuci/"
+const githubHandle ="https://github.com/jtorresuci?tab=repositories"
 
 const hoverColor ="white"
 const hoverBackgroundcolor ="red"
@@ -15,7 +16,7 @@ const Socials = (props, ButtonGroupProps) => {
         <ButtonGroup     
         variant="ghost" {...props}>
         {/* <IconButton as="a" href="#" aria-label="LinkedIn" icon={<FaLinkedin size="20px" />} />x */}
-        {/* <IconButton as="a" href="#" aria-label="GitHub" icon={<FaGithub size="20px" />} /> */}
+        <IconButton as="a" href={githubHandle} aria-label="GitHub" icon={<FaGithub size="20px" />} />
         <IconButton _hover={{ bg: hoverBackgroundcolor, color: hoverColor  }} as="a" href={twitterHandle} aria-label="Twitter" icon={<FaTwitter size="20px" />} />
         {/* <IconButton _hover={{ bg: hoverBackgroundcolor, color: hoverColor  }} as="a" href={openseaHandle} aria-label="Link" icon={<FaLink size="20px" />} /> */}
 
